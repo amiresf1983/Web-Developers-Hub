@@ -6,7 +6,6 @@ Web Developers Hub is a platform which users can interact with to see informatio
 
 ## Table of Contents
 * [User Stories](#userstories) 
-* [Acceptance Criteria](#acceptancecriteria)
 * [Resources](#resources)
 * [Installation](#installation)
 * [Usage](#usage)
