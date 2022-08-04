@@ -55,7 +55,7 @@ If you would like to acess the source code, please navigate to the following pub
 
 ## Usage
 
-In order to see a application deployed on Heroku, navigate to the following link: [https://web-developers-hub.herokuapp.com/](https://web-developers-hub.herokuapp.com/).
+In order to see a application deployed on Heroku, navigate to the following link: [https://github.com/amiresf1983/Web-Developers-Hub/](https://github.com/amiresf1983/Web-Developers-Hub/).
 
 In order to run the applicational locally, follow the below steps.
 
