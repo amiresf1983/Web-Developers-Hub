@@ -77,8 +77,10 @@ In order to run the applicational locally, follow the below steps.
 
 ## Contributions 
 
-Amir Esfandiari
+Amir Esfandiari   email: amir.esf1983@gmail.com
 
+[https://github.com/amiresf1983](https://github.com/amiresf1983).
+[https://book-taku.herokuapp.com/](https://book-taku.herokuapp.com/). 
 
 
 
