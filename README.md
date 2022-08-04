@@ -17,17 +17,16 @@ Web Developers Hub is a platform which users can interact with to see informatio
 
 ## Technologies
 
-- [JavaScript]
-- [Favicon.ico](https://favicon.io/)
-- [Express-session Documentation](https://www.npmjs.com/package/express-session#user-content-secret)
-- [Sequelize Documentation](https://sequelize.org/docs/v6/)
-- [Handlebars Documentation](https://handlebarsjs.com/guide/#what-is-handlebars)
-- [ESLint Documentation](https://eslint.org/docs/user-guide/getting-started)
-- [Prettier Documentation](https://prettier.io/docs/en/index.html)
-- [MDN Docs](https://developer.mozilla.org/en-US/)
-- [Stackoverflow](https://stackoverflow.com/)
-- [W3Schools Pagination](https://www.w3schools.com/css/css3_pagination.asp)
-- [Design System Pagination](https://design-system.w3.org/components/pagination.html)
+- JavaScript
+- Node.JS
+- React.JS
+- GraphQL
+- Apollo Server
+- MongoDB
+- Mongoose
+- Semantic UI React
+- JWT
+
 
 ## Installation
 
@@ -37,15 +36,12 @@ Web Developers Hub is a platform which users can interact with to see informatio
 
 ### Pulling the repository from Git 
 
-If you would like to acess the source code, please navigate to the following public Github repository [Github Repository](git@github.com:amiresf1983/Book-taku.git). 
+If you would like to acess the source code, please navigate to the following public Github repository 
 
 * Clone the repository to your local desktop using the following steps:
 
-  * 🔑 Use the terminal command `cd` to navigate to the directory where we want the repository located. In this case, we will save it to the Desktop. 
+  * 🔑 Use the terminal command `cd` to navigate to the directory where we want the repository located. 
 
-  ```bash
-  cd Desktop
-  ```
 
   * 🔑 Use the git command `git clone` followed by the URL copied from Github to clone the repo to our local machine.
 
@@ -55,9 +51,7 @@ If you would like to acess the source code, please navigate to the following pub
 
   * 🔑 Use the `git clone` command creates a new directory with the same name as the repository. We navigate into our new directory using `cd`.
 
-  ```bash
-  cd Book-taku
-  ```
+  
 * After the repository has been cloned to your local machine, open the files using Visual Studio application. 
 
 ## Usage 
@@ -70,32 +64,21 @@ In order to run the applicational locally, follow the below steps.
 * Step 2: Install all the necessary npm packages by running the following command: 
 
   ```bash
-  npm start  
+  npm install
   ```
 * Step 3: Run by using the following command in the command terminal in VS Code. 
 
   ```bash
   npm start  
   ```
-* Step 4: You will be presented with the application by entering http://localhost:3001/ in the browser. 
+* Step 4: You will be presented with the application by entering http://localhost:3000/ in the browser. 
 
-![Main page](./assets/main-page.png)
 
-* Step 5: If you are a new user, click on "Login" and then follow the "Sign up now" link. If you already have an account, simply log in using Username and Password. 
-
-![Log in page](./assets/login-page.png)
-
-![Sign up page](./assets/sign-up-page.png)
-
-* Step 6: To add a review to a book, click on "Library" and click on the book title to which you would like to add a review. You will then be taken to a page with book details and an option to add a review. 
-
-![Library](./assets/add-comment.png)
 
 ## Contributions 
-- Christi Scappatura 
-- Jemima Siddiqui 
-- Andrew Ouyang 
-- Jinhee Lee 
-- Amir Esfandiari 
+
+Amir Esfandiari
+
+
 
 
