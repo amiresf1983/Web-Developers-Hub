@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { ApolloServer, PubSub } = require("apollo-server");
 const mongoose = require("mongoose");
 
@@ -13,10 +14,19 @@ const server = new ApolloServer({
   context: ({ req }) => ({ req, pubsub }),
 });
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose
+  .connect(MONGODB, { useNewUrlParser: false })
+  .then(() => {
+    console.log("MongoDB Connected");
+    return server.listen({ port: 5000 });
+  })
+  .then((res) => {
+    console.log(`Server running at ${res.url}`);
+  });
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/", {
+//   useNewUrlParser: false,
+//   useUnifiedTopology: false,
+// });
 // mongoose.connect(MONGODB, { useNewUrlParser: true }).then(() => {
 //   console.log("MongoDB Connected successfully!");
 //   return server.listen({ port: 5000 });
